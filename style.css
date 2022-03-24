@@ -5,12 +5,25 @@ body, html {
 main {
     background-color: darkslategray;
     width: 300px;
-    height: 600px;
+    height: 630px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
     margin: 10vw auto;
     padding: 10px;
 }
+
+.meu-nome {
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: -4px;
+    color: white;
+}
+
+.meu-nome:hover {
+    text-decoration: underline;
+}
+
 
 form {
     display: flex;
