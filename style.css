@@ -1,0 +1,43 @@
+body, html {
+    background-color: rgb(69, 197, 154);
+}
+
+main {
+    background-color: darkslategray;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    margin: 10vw auto;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#botao {
+    width: 113px;
+    margin-top: 10px;
+    margin-left: 92px;
+}
+
+p {
+    color: white;
+}
+
+input {
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.formulario2 {
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
